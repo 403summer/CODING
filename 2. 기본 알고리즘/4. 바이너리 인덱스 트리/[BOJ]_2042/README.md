@@ -24,8 +24,8 @@ input = sys.stdin.readline
 n, m, k = map(int, input().split())
 
 # 전체 데이터의 개수는 최대 1,000,000개
-arr = [0] * (n+1)
-tree = [0] * (n+1)
+arr = [0] * (n+1) 1 2 3 4 5
+tree = [0] * (n+1) 1000 500 300 1800
 
 # i번째 수까지의 누적 합을 계산하는 함수
 def prefix_sum(i):
