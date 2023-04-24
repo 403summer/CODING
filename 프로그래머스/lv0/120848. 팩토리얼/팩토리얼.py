@@ -1,10 +1,9 @@
 def solution(n):
-    point = 0
-    result = 1
+    result = 0
+    number = 1
     while True:
-        point += 1
-        result = result * point
-        if result <= n < result*point+1:
-            print(result)
+        result += 1
+        number = number * result
+        if number <= n < number*result+1:
             break
-    return point
+    return result
